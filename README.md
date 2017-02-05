@@ -22,6 +22,13 @@ e.g.
 python download_image.py "http://www.ikea.com/us/en/catalog/products/S29007794/"
 ```
 
+To run tests
+
+```
+pip install -r requirements.txt -r test_requirements.txt
+pytest
+```
+
 ## but why?
 I was planning to stain/paint only *part* of my Ikea Tarva frame.
 To decide which part, I thought I'd open the product image and play with coloring it in GIMP.
