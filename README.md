@@ -2,6 +2,12 @@
 
 this downloader is a python 3 script to download full-size product images
 
+### Warning
+
+Anything in this README that implies `download_images.py` takes command-line arguments is a lie.
+I am experimenting with writing a README as a spec of desired/MVP behavior.
+Besides the currently-hardcoded paths, everything else should work as advertised
+
 ## but how?
 
 To setup:
@@ -13,13 +19,13 @@ pip install -r requirements.txt
 To run:
 
 ```sh
-python download_image.py "[Ikea product URL]"
+python download_images.py "[Ikea product URL]"
 ```
 
 e.g.
 
 ```sh
-python download_image.py "http://www.ikea.com/us/en/catalog/products/S29007794/"
+python download_images.py "http://www.ikea.com/us/en/catalog/products/S29007794/"
 ```
 
 To run tests
